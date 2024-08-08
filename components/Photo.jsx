@@ -39,7 +39,7 @@ const Photo = () => {
             cx="250"
             cy="255"
             r="250"
-            stroke="#33fffc"
+            stroke="#ffe033"//colour for the circle
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"

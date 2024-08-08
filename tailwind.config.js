@@ -26,8 +26,8 @@ module.exports = {
       colors: {
         primary: '#1c1c22',
         accent: {
-          DEFAULT: '#33ecff',
-          hover: '#33fffc',
+          DEFAULT: '#ffe033',
+          hover: '#ffc133',
         },
       },
 
@@ -49,3 +49,8 @@ module.exports = {
   },
   plugins: [require('tailwindcss-animate')],
 };
+//ffc133 hover orange
+//ffe033 default light orange
+
+//33fffc light blue hover
+//33ecff light blue default
