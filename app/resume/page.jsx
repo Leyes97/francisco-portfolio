@@ -9,21 +9,23 @@ import {
   FaNodeJs,
 } from 'react-icons/fa';
 
-import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiPostgresql,
+  SiFirebase,
+  SiSiBootstrap,
+} from 'react-icons/si';
 
 //about data
 const about = {
   title: 'About me',
   description:
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sint atque, mollitia maxime repellendus voluptas vitae iure laboriosam eaque nam fugit,',
+    "I'm a dedicated Full Stack Developer with a passion for creating scalable, efficient, and user-friendly web applications. With expertise in modern JavaScript frameworks like React.js and Next.js, and a strong background in backend technologies like Node.js, I focus on delivering seamless and secure solutions. I’m a quick learner, always exploring new tools and approaches to stay ahead in the tech world. Collaboration and clear communication are at the core of my work, helping me contribute effectively to any project",
   info: [
     {
       fieldName: 'Name',
       FieldValue: 'Francisco Leyes',
-    },
-    {
-      fieldName: 'Phone',
-      FieldValue: '(+54) 9 01159987557',
     },
     {
       fieldName: 'Experience',
@@ -37,10 +39,7 @@ const about = {
       fieldName: 'Nationality',
       FieldValue: 'Argentine',
     },
-    {
-      fieldName: 'Email',
-      FieldValue: 'Francisco.leyescampoy@gmail.com',
-    },
+
     {
       fieldName: 'Freelance',
       FieldValue: 'Available',
@@ -48,6 +47,10 @@ const about = {
     {
       fieldName: 'Languages',
       FieldValue: 'Spanish, English',
+    },
+    {
+      fieldName: 'Email',
+      FieldValue: 'Francisco.leyescampoy@gmail.com',
     },
   ],
 };
@@ -57,37 +60,17 @@ const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My experience',
   description:
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sint atque, mollitia maxime repellendus voluptas vitae iure laboriosam eaque nam fugit,',
+    'I began my professional journey in late 2022 with an internship at Itesa Innovations Company, where I gained valuable hands-on experience. In 2023, I continued to grow my skills during an internship at UMA Salud, contributing to impactful projects and further developing my expertise in the field.',
   items: [
     {
-      company: 'Tech Solutions Inc.',
+      company: 'UMA Salud',
       position: 'Full Stack Developer.',
-      duration: '2022-Present',
+      duration: '2023',
     },
     {
-      company: 'Web Desing Studio.',
-      position: 'Front-End Developer Intern',
-      duration: 'Summer 2021',
-    },
-    {
-      company: 'E-commerce Startup.',
-      position: 'Freelance Web Developer',
-      duration: '2020 - 2021',
-    },
-    {
-      company: 'Tech Academy.',
-      position: 'Teaching Assistant',
-      duration: '2019 - 2020',
-    },
-    {
-      company: 'Digital Agency.',
-      position: 'UI/UX Designer.',
-      duration: '2022-Present',
-    },
-    {
-      company: 'Software Development Firm.',
-      position: 'Junior Developer',
-      duration: '2017 - 2018',
+      company: 'Itesa Inovation Company.',
+      position: 'Full Stack Developer',
+      duration: 'Summer 2022-2023',
     },
   ],
 };
@@ -97,7 +80,7 @@ const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My education',
   description:
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet sint atque, mollitia maxime repellendus voluptas vitae iure laboriosam eaque nam fugit,',
+    "Since starting my programming journey in 2021, I’ve developed a strong foundation in full stack development. I've focused on building responsive and efficient web applications, continuously learning and growing as a developer. My passion for problem-solving drives me to deliver quality solutions and contribute effectively to every project.",
   items: [
     {
       institution: 'Plataforma 5',
@@ -107,27 +90,12 @@ const education = {
     {
       institution: 'FreeCodeCamp',
       degree: 'Frontend Java Script',
-      duration: '2022',
+      duration: '2021',
     },
     {
       institution: 'Udemy',
       degree: 'HTML - CSS',
       duration: '2021',
-    },
-    {
-      institution: 'Tech Institute',
-      degree: 'Certified Web Developer',
-      duration: '2020',
-    },
-    {
-      institution: 'Desing School',
-      degree: 'Diplom in Graphic Desing',
-      duration: '2019',
-    },
-    {
-      institution: 'Comumunity College',
-      degree: 'Associate Degree in Computer Science',
-      duration: '2018',
     },
   ],
 };
@@ -136,7 +104,7 @@ const education = {
 const skills = {
   title: 'My Skills',
   description:
-    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam error cumque laudantium corporis, dignissimos illo corrupti temporibus ex ullam, ',
+    'Since beginning my programming journey in 2022, I’ve developed strong skills across a range of technologies. My experience includes working with modern frameworks, backend systems, and database management. I’ve applied these skills in various projects and internships, continuously expanding my technical expertise and adapting to new tools and methodologies. ',
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -170,6 +138,15 @@ const skills = {
       icon: <FaNodeJs />,
       name: 'node js',
     },
+    {
+      icon: <SiPostgresql />,
+      name: 'Postgresql',
+    },
+    {
+      icon: <SiFirebase />,
+      name: 'Firebase',
+    },
+  
   ],
 };
 
@@ -269,7 +246,7 @@ const Resume = () => {
               </div>
             </TabsContent>
             {/*skills */}
-            <TabsContent value="skills" className="w-full h-full">
+            <TabsContent value="skills" className="w-full h-full mb-6">
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center xl:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>

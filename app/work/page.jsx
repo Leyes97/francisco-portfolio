@@ -26,11 +26,15 @@ const projects = [
     category: 'frontend',
     title: 'project 1',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga enim commodi suscipit pariatur nobis corporis laborum optio quasi quaerat.',
-    stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'Javascript' }],
-    image: '/assets/work/tmdb.png',
-    live: '',
-    github: '',
+      'Este es un proyecto frontend que utiliza la API de Dragon Ball Z (DBZ) para mostrar diferentes tipos de datos. El proyecto está construido con Next.js, Tailwind CSS, y Framer Motion, y presenta una variedad de componentes para visualizar la información recibida de la API de manera dinámica y atractiva.',
+    stack: [
+      { name: 'Next.js' },
+      { name: 'Tailwind.css' },
+      { name: 'Framer-motion' },
+    ],
+    image: '/assets/work/DBZAPI.png',
+    live: 'https://dbz-api-yvm7.vercel.app/',
+    github: 'https://github.com/Leyes97/dbz-api',
   },
   {
     num: '02',

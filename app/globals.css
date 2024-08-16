@@ -8,7 +8,7 @@
     }
 
     .h1 {
-        @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold
+        @apply text-[42px] xl:text-[62px] leading-[1.1] font-semibold
     }
 
     .h2 {
@@ -29,6 +29,11 @@
     
     .text-outline-hover {
         -webkit-text-stroke: 1px #ffe033
+    }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #ffe033 transparent;
     }
 }
 

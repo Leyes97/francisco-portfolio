@@ -29,11 +29,11 @@ const info = [
   {
     icon: <FaMapMarkedAlt />,
     title: 'Address',
-    description: 'Subteniente Gamarra 729, Luis Guillon',
+    description: 'Luis Guillon',
   },
 ];
 
-import { animate, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
   return (
@@ -87,9 +87,9 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="est">Web Development</SelectItem>
-                    <SelectItem value="cst">UI/UX Design</SelectItem>
-                    <SelectItem value="mst">Logo Design</SelectItem>
+                    <SelectItem value="est">FullStack</SelectItem>
+                    <SelectItem value="cst">Frontend</SelectItem>
+                    <SelectItem value="mst">Backend</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
