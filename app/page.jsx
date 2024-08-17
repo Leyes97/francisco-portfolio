@@ -3,7 +3,7 @@ import { FiDownload } from 'react-icons/fi';
 
 //components
 import Social from '@/components/Social';
-import Photo from '@/components/Photo';
+import Logo from '@/components/Logo';
 import Stats from '@/components/Stats';
 
 const Home = () => {
@@ -37,7 +37,7 @@ const Home = () => {
           </div>
           {/*photo */}
           <div className="order-1 xl:order-none mb-8 xl:mb-0">
-            <Photo />
+            <Logo />
           </div>
         </div>
       </div>
