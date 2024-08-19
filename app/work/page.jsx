@@ -23,10 +23,10 @@ import WorkSliderBtns from '@/components/WorkSliderBtns';
 const projects = [
   {
     num: '01',
-    category: 'frontend',
+    category: 'Frontend',
     title: 'project 1',
     description:
-      'Este es un proyecto frontend que utiliza la API de Dragon Ball Z (DBZ) para mostrar diferentes tipos de datos. El proyecto está construido con Next.js, Tailwind CSS, y Framer Motion, y presenta una variedad de componentes para visualizar la información recibida de la API de manera dinámica y atractiva.',
+      'This is a frontend project that uses the Dragon Ball Z (DBZ) API to display different types of data. The project is built with Next.js, Tailwind CSS, and Framer Motion, featuring various components to dynamically and attractively visualize the information received from the API.',
     stack: [
       { name: 'Next.js' },
       { name: 'Tailwind.css' },
@@ -38,25 +38,18 @@ const projects = [
   },
   {
     num: '02',
-    category: 'fullstack',
+    category: 'Frontend',
     title: 'project 2',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga enim commodi suscipit pariatur nobis corporis laborum optio quasi quaerat.',
-    stack: [{ name: 'Next.js' }, { name: 'Tailwind.css' }, { name: 'Node.js' }],
-    image: '/assets/work/itesa.png',
-    live: '',
-    github: '',
-  },
-  {
-    num: '03',
-    category: 'frontend',
-    title: 'project 3',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime fuga enim commodi suscipit pariatur nobis corporis laborum optio quasi quaerat.',
-    stack: [{ name: 'Next.js' }, { name: 'Tailwind' }],
-    image: '/assets/work/e-comerce.png',
-    live: '',
-    github: '',
+      'This project is my portfolio, created to showcase all my work. It was developed using Next.js, Tailwind CSS, and Framer Motion, with a focus on building a dynamic, modern interface featuring smooth animations and responsive design.',
+    stack: [
+      { name: 'Next.js' },
+      { name: 'Tailwind.css' },
+      { name: 'Framer-motion' },
+    ],
+    image: '/assets/work/Portfolio.png',
+    live: 'https://francisco-portfolio-tan.vercel.app/',
+    github: 'https://github.com/Leyes97/francisco-portfolio',
   },
 ];
 
