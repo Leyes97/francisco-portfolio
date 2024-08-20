@@ -51,6 +51,25 @@ const projects = [
     live: 'https://francisco-portfolio-tan.vercel.app/',
     github: 'https://github.com/Leyes97/francisco-portfolio',
   },
+  {
+    num: '03',
+    category: 'FullStack',
+    title: 'project 2',
+    description:
+      'This project is in development, we will soon have a Movie Trailers Page',
+    stack: [
+      { name: 'Next.js' },
+      { name: 'Tailwind.css' },
+      { name: 'Framer-motion' },
+      { name: 'Node.js' },
+      { name: 'Postgresql' },
+      { name: 'Sequelice' },
+      { name: 'Express' },
+    ],
+    image: '/assets/work/cs.png',
+    live: '',
+    github: 'https://github.com/Leyes97/tmdbBack',
+  },
 ];
 
 const Work = () => {
@@ -86,7 +105,7 @@ const Work = () => {
               {/*project description*/}
               <p className="text-white/60">{project.description}</p>
               {/*stack*/}
-              <ul className="flex gap-4">
+              <ul className="flex  flex-wrap gap-4">
                 {project.stack.map((item, index) => {
                   return (
                     <li key={index} className="text-xl text-accent">
