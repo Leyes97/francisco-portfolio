@@ -33,7 +33,7 @@ const projects = [
       { name: 'Framer-motion' },
     ],
     image: '/assets/work/DBZAPI.png',
-    live: 'https://dbz-api-yvm7.vercel.app/',
+    live: 'https://dbz-api-one.vercel.app/',
     github: 'https://github.com/Leyes97/dbz-api',
   },
   {
