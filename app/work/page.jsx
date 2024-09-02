@@ -67,7 +67,7 @@ const projects = [
       { name: 'Express' },
     ],
     image: '/assets/work/cs.png',
-    live: '',
+    live: 'https://youtu.be/Y4G8s4_dwUE?si=X-Q0YV6MfIOpcSj8',
     github: 'https://github.com/Leyes97/tmdbBack',
   },
 ];
